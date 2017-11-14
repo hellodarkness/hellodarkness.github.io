@@ -283,6 +283,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2017/11/09/HiHi-Welcome-to-my-blog/",
+  owner: 'hellodarkness',
+  repo: 'https://github.com/hellodarkness/hellodarkness.github.io.git',
+  oauth: {
+    client_id: '50b6a5db822345c41a10',
+    client_secret: '3b7401d222cb879a0c6f564a41e454caf0ea62eb',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
